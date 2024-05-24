@@ -31,9 +31,6 @@ services:
 
   db:
     image: mongo
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME
-      - MONGO_INITDB_ROOT_PASSWORD
     volumes:
       - type: volume
         source: dbtest
